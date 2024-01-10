@@ -68,6 +68,9 @@ Exemplo: Ocky Mark 1.2.3
 Cada versão do projeto(modelo) Mark e o número da versão em números com ponto para dividir as seções, num total de 2 secções extra, e Letras começando por B para cada variação. Por exemplo: Mark 1.0.0, Mark 1.0.2B, Mark 2.5F.0C. E podem ter um nome popular. O primeiro número é sobre mudanças no hardware, a segunda no software, a terceira na aparência/desing, e as letras indicam variações do mesmo modelo. Quando alguém diferente dos modelos oficiais cria algo, se coloca o nome artístico do usuário primeiro, como “Ocky Mark 2.0.0B”. O significado do número 0 é para versões caseiras sem acabamento, a 1 é para modelos sólidos e neutros, 2 para inspirações no PipBoy(item do jogo Fallout), 3 para modelos pequenos baseados em SmartchWatchs.
 
  
+**Itens para comprar**
+
+[Raspberry Pi Zero 2 W Anatel - MakerHero](https://www.makerhero.com/produto/raspberry-pi-zero-2-w/?src=raspberrypi)
 
 [Monitor Touch 7 Polegadas Para Raspberry Pi3 E Pi4 1024x600](https://produto.mercadolivre.com.br/MLB-3211483654-monitor-touch-7-polegadas-para-raspberry-pi3-e-pi4-1024x600-_JM)
 

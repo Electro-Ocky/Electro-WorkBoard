@@ -1,0 +1,1 @@
+C:\Users\01tav\Documents\Projetos\ElectroWorkBench\Mark\ 0.0.0\Software\Base\BaseEWB\target\debug\BaseEWB.exe: C:\Users\01tav\Documents\Projetos\ElectroWorkBench\Mark\ 0.0.0\Software\Base\BaseEWB\src\main.rs

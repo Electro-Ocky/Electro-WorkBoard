@@ -52,9 +52,6 @@ fn main() {
     A base que é sobre o código base usado para interligar todos os sub-códigos,
     Os arquivos, com drivers, recursos avançados externos...
 
-    -
-
-
     *****
 
 

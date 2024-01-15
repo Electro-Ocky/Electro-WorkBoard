@@ -8,7 +8,17 @@ fn main() {
     
     *****
 
-    Há 3 pastas, a base que é sobre o código base usado para interligar todos os sub-códigos, o sistema operacional, que tem o sistema operacional para o qual o código foi feito e seus softwares, arquivos, etc..., e extras, com drivers, recursos avançados externos.
+    Não criamos um sistema operacional ainda, mas um programa Rust simples que engloba tudo,
+
+    -
+
+    O software é compostos de 3 pastas,
+    O sistema operacional, que tem o sistema operacional para o qual o código foi feito e seus softwares,
+    A base que é sobre o código base usado para interligar todos os sub-códigos,
+    Os arquivos, com drivers, recursos avançados externos...
+
+    *****
+
 
     ");
     

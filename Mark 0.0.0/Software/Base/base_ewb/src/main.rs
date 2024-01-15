@@ -32,10 +32,11 @@ fn main() {
     Não criamos um sistema operacional ainda, mas um programa Rust simples que engloba tudo.
     Nosso sistema é simples, categorizado em palavras, e baseado em árvore...
     Você tem opções simples, que levam a outras opções, que fazem ações.
-    Há 3 tipos de ação: Medição, Geração e Transformação.
-    Há 2 tipos de dado: Valor e Função. 
-    Há 12 tipos de escalar: 10^-12(Tera), até, 10^12.
     Há um número indefinido de áreas: Área 1 , Área 2, Área 3.
+        Logo após a escolha entre 2 tipos de serviço: Valor e Função. 
+    Paralelamente é possível alterar:
+        Há 3 tipos de ação: Medição, Geração e Transformação.
+        Há 12 tipos de escalar: 10^-12(Tera), até, 10^12.
     Exemplo: Eletrônica > Valor > Voltagem > Alternada.
 
     Ele é assim para ser simples, ser acessado com controles simples, com poucos botões.

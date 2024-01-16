@@ -1,5 +1,62 @@
+use std::io;
+use std::process::Command;
+
+
 fn main() {
-    println!("
+    let arg = "Wabalaba dub dub!";
+    let username = whoami::username();
+    println!("Bem vindo {}! \n Ao programa base do projeto Electro WorkBoard \n 'Uma súper bancada de trabalho eletrônica portátil'\n", username.to_string());
+
+    let mut inputA = String::new().to_string();
+    
+    let mut buffer1a = String::new().to_string();
+    let mut buffer2a = String::new().to_string();
+    let mut buffer3a = String::new().to_string();
+
+    let mut buffer1b = String::new().to_string();
+    let mut buffer2b = String::new().to_string();
+    let mut buffer3b = String::new().to_string();
+
+    let mut buffer1c = String::new().to_string();
+    let mut buffer2c = String::new().to_string();
+    let mut buffer3c = String::new().to_string();
+
+    let A = Command::new("cmd.exe").arg("/c").arg("pause").status();
+
+    while inputA != "exit" {
+        //clearscreen::clear().expect("failed to clear screen");
+
+        match inputA.as_str() {
+            "eletro".as_str() => {buffer1c = "Valor".to_string(); buffer2c = "Função".to_string();}
+            
+            "redes".as_str() => {buffer1c = "Valor".to_string(); buffer2c = "Função".to_string();}
+            
+            "cybseg".as_str() => {buffer1c = "Valor".to_string(); buffer2c = "Função".to_string();}
+            
+            _ => println!("WoW"),
+        }
+
+        println!("Informações:\n");
+
+        println!("Caminho: {} {} {}\n", buffer1a, buffer2a, buffer3a);
+
+        println!("Gráficos:\n");
+        println!("{} \n {} \n {}\n", buffer1b, buffer2b, buffer3b);
+
+        println!("Opções:\n");
+
+        println!("{} \n {} \n {} \n", buffer1c, buffer2c, buffer3c);
+
+        io::stdin().read_line(&mut inputA)
+        .expect("Failed to read input.");
+        
+        println!("É igual a {}", inputA);
+
+
+        println!("{}", inputA);
+
+        if inputA == "intro" {
+        println!("
     
     Projeto pessoal do Ocky:
 
@@ -19,13 +76,13 @@ fn main() {
     *****
 
     .d8888b.            .d888 888                                           
-    d88P  Y88b          d88P"  888                                           
+    d88P  Y88b          d88P   888                                           
     Y88b.               888    888                                           
-     "Y888b.    .d88b.  888888 888888 888  888  888  8888b.  888d888 .d88b.  
-        "Y88b. d88""88b 888    888    888  888  888     "88b 888P"  d8P  Y8b 
-          "888 888  888 888    888    888  888  888 .d888888 888    88888888 
+      Y888b.    .d88b.  888888 888888 888  888  888  8888b.  888d888 .d88b.  
+        Y88b.  d88  88b 888    888    888  888  888      88b 888P   d8P  Y8b 
+           888 888  888 888    888    888  888  888 .d888888 888    88888888 
     Y88b  d88P Y88..88P 888    Y88b.  Y88b 888 d88P 888  888 888    Y8b.     
-     "Y8888P"   "Y88P"  888     "Y888  "Y8888888P"  "Y888888 888     Y8888                                                   
+        Y8888P   Y88P  888     Y888  Y8888888P  Y888888 888     Y8888                                                   
 
     *****
 
@@ -45,6 +102,11 @@ fn main() {
         Jostick com click, navegação entre árvore de opções, e clique para confirmação de opção.
         Coleção de 4 Botões, cima e baixo para aumentar/dimunir escala; esquerada/direita para mudar de ação. 
 
+    Temos 3 partes no desing do programa:
+        Caminho, mostra qual a posição da opção dentro da árvore de opções.
+        Gráfico, mostra oque o usuário pede para o programa.
+        Opções, mostra as opções desponíveis e opção selecionada.
+
     -
 
     O software é compostos de 3 pastas,
@@ -56,5 +118,7 @@ fn main() {
 
 
     ");
-    
+    }
+        
+    }
 }

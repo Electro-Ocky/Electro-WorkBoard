@@ -7,7 +7,7 @@ fn main() {
     let username = whoami::username();
     println!("Bem vindo {}! \n Ao programa base do projeto Electro WorkBoard \n 'Uma súper bancada de trabalho eletrônica portátil'\n", username.to_string());
 
-    let mut inputA = String::new().to_string();
+    let mut inputA = -10;
     
     let mut buffer1a = String::new().to_string();
     let mut buffer2a = String::new().to_string();
@@ -23,15 +23,15 @@ fn main() {
 
     let A = Command::new("cmd.exe").arg("/c").arg("pause").status();
 
-    while inputA != "exit" {
+    while inputA != 0 {
         //clearscreen::clear().expect("failed to clear screen");
 
-        match inputA.as_str() {
-            "eletro".as_str() => {buffer1c = "Valor".to_string(); buffer2c = "Função".to_string();}
+        match inputA {
+            1 => {buffer1c = "Valor".to_string(); buffer2c = "Função".to_string();}
             
-            "redes".as_str() => {buffer1c = "Valor".to_string(); buffer2c = "Função".to_string();}
+            2 => {buffer1c = "Valor".to_string(); buffer2c = "Função".to_string();}
             
-            "cybseg".as_str() => {buffer1c = "Valor".to_string(); buffer2c = "Função".to_string();}
+            3 => {buffer1c = "Valor".to_string(); buffer2c = "Função".to_string();}
             
             _ => println!("WoW"),
         }
@@ -47,7 +47,7 @@ fn main() {
 
         println!("{} \n {} \n {} \n", buffer1c, buffer2c, buffer3c);
 
-        io::stdin().read_line(&mut inputA)
+        io::stdin().read_line(&mut inputA.to_string())
         .expect("Failed to read input.");
         
         println!("É igual a {}", inputA);
@@ -55,7 +55,7 @@ fn main() {
 
         println!("{}", inputA);
 
-        if inputA == "intro" {
+        if inputA == -1 {
         println!("
     
     Projeto pessoal do Ocky:

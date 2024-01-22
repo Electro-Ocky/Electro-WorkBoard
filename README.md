@@ -1,24 +1,12 @@
 # Electro-WorkBoard
 
-Em termos simples, “Um super multimetro que emite e recebe qualquer sinal, com base na eletricidade”. Uma super ferramenta de trabalho, voltado a eletrônica.
-
-Electro-WorkBoard é uma mesa de trabalho(WorkBench) portátil(Board) para eletrônica. Basicamente um bracelete com um microcontrolador poderoso, que possa processar um compilado de sensores e emissores para medir, alterar, e enviar qualquer sinal elétrico, e através dele, magnéticos, sonoros, radioativos, mecânicos e afins…
-
-Ele conta com medidor de Voltagem, Resistência, Amperes, Frequência, Capacitância, Indutância, 
-
-Um exemplo dele em ação é, você tem três bobinas, um regulador de tensão, ligados separadamente ao microcontrolador central por um CI, você pode combiná-los pelo software, para criar um eletroimã interno, um transformador, ou uma PEM(máquina de pulso eletromagnético), e o raspberry irá unir os componentes de acordo com a sua configuração do software.
-
-Outro exemplo dele em ação é, você tem um circuito completo de transformação de energia com filtro passivo, e pode medir cada componente, como capacitores, Transistores, transformadores, etc… 
-
-O projeto base é baseado em Raspberry Pi. Modelo Electro-Ocky Mark 0.0.0 
+Uma bancada de eletrônica portátil.
 
 **Descrição**
 
 Ele é um bracelete pequeno, com sensores e emissores, em escala micro, que possuem condutores retráteis(Bastões retráteis moles) para amplificar seu poder, de elétrica, luz, radiofrequência.
 
 Ele pode possui um sistema operacional comum, como um Raspbian Lite, ou Arch Linux, com configurações básicas para fornecer gráficos simples, como função de osciloscópio.  
-
-Possui uma PCB simples para juntar todos os sensores e emissores de forma organizada, conectados entre si por CIs especializados, que garantam a flexibilidade interna do sistema.
 
 **Fotos/Vídeos de Inspiração/demonstração**
 

@@ -35,7 +35,7 @@ Ele pode possui um sistema operacional comum, como um Raspbian Lite, ou Arch Lin
 Há várias expansões do projeto:
 
 - Software - FlipperBoy, que adiciona ferramentas/API/Softwares hackers a ele, inspirado pelo dispositivo Flipper, e PipBoy(item do jogo Fallout).
-- Software - RPG SmartchWatch, adiciona monitoramentos informativo sobre os vitais do indivíduo e seus itens (batimentos cardíacos, mapa/localização, passos, velocidade, tamanho de pulo, lista de tarefas, diários, inventário pessoal, e próximo, estado dos itens do inventário, temperatura, radar).
+- Modelo - RPG SmartchWatch, tem adaptações para ser um bracelete; adiciona monitoramentos informativo sobre os vitais do indivíduo e seus itens (batimentos cardíacos, mapa/localização, passos, velocidade, tamanho de pulo, lista de tarefas, diários, inventário pessoal, e próximo, estado dos itens do inventário, temperatura, radar).
 - Hardware - LeveUp, adiciona mais potêntes/maiores/melhores antenas(condutores de luz, magnetismo, condutores elétricos), baterias externas.
 - Modelo - All time, adiciona recursos para tornar possível o uso em várias situações, como maior leveza, recurso aprova de água, materiais resistêntes a temperaturas extremas, isolamento a descargas elétricas.
 - E todos podem criar sua própria incrementação do projeto base, de acordo com sua necessidade.

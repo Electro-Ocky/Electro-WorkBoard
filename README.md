@@ -4,9 +4,9 @@ Uma bancada de eletrônica portátil.
 
 **Descrição**
 
-Ele é um bracelete pequeno, com sensores e emissores, em escala micro, que possuem condutores retráteis(Bastões retráteis moles) para amplificar seu poder, de elétrica, luz, radiofrequência.
+Ele é um bracelete/caixa pequena, com sensores e emissores, em escala micro, que possuem condutores retráteis(Bastões retráteis moles) para amplificar seu poder, de elétrica, luz, radiofrequência.
 
-Ele pode possui um sistema operacional comum, como um Raspbian Lite, ou Arch Linux, com configurações básicas para fornecer gráficos simples, como função de osciloscópio.  
+Ele pode possui um sistema operacional comum, como um Raspbian Lite, ou Arch Linux, com configurações básicas para fornecer gráficos simples, como função de osciloscópio. 
 
 **Fotos/Vídeos de Inspiração/demonstração**
 
@@ -22,7 +22,7 @@ Ele pode possui um sistema operacional comum, como um Raspbian Lite, ou Arch Lin
 
 - Como isso é economicamente viável?
     - Os sensores utilizados podem ser fabricados facilmente, reciclados, e custam alguns centavos para serem comprados…
-    - Ao todo se gastaria cerca de 1.000 R$ no projeto para se construir, e se poderia reutilizar as partes em várias coisas, como uma tela HDMI.
+    - Ao todo se gastaria cerca de 1.000 R$ no projeto para se construir, e se poderia reutilizar as partes em várias coisas, como por exemplo a tela dele.
     - Com um pouco de engenharia simples, você pode criar sistemas como um micro sensor infravermelho, com uma antena de fibra ótica.
 - Vocês vendem?
     - Com a versão 3.0.0 sendo lançada, e o projeto dando certo e sendo financiado, trabalharíamos em uma versão para se vender, com PCB e impressões 3D de qualidade e baixo custo. Talvez consigamos um investimento pela comunidade DIY e Open Source, Raspberry, Ubuntu entre outros... Também lançaríamos um financiamento coletivo para publicar isso, mas precisaríamos de engenheiros, marketeiros e designers.
@@ -52,5 +52,3 @@ Há também módulos extra(pequenos cubos de bolso):
 Resumindo: Autor Mark Versão Hardware . Versão Software . Versão Design
 
 Exemplo: Ocky Mark 1.2.3
-
-Cada versão do projeto(modelo) Mark e o número da versão em números com ponto para dividir as seções, num total de 2 secções extra, e Letras começando por B para cada variação. Por exemplo: Mark 1.0.0, Mark 1.0.2B, Mark 2.5F.0C. E podem ter um nome popular. O primeiro número é sobre mudanças no hardware, a segunda no software, a terceira na aparência/desing, e as letras indicam variações do mesmo modelo. Quando alguém diferente dos modelos oficiais cria algo, se coloca o nome artístico do usuário primeiro, como “Ocky Mark 2.0.0B”. O significado do número 0 é para versões caseiras sem acabamento, a 1 é para modelos sólidos e neutros, 2 para inspirações no PipBoy(item do jogo Fallout), 3 para modelos pequenos baseados em SmartchWatchs.

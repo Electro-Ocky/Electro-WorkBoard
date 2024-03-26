@@ -6,7 +6,7 @@ Uma bancada de eletrônica portátil.
 
 Ele é um bracelete/caixa pequena, com sensores e emissores, em escala micro, que possuem condutores retráteis(Bastões retráteis moles) para amplificar seu poder, de elétrica, luz, radiofrequência.
 
-Ele pode possui um sistema operacional comum, como um Raspbian Lite, ou Arch Linux, com configurações básicas para fornecer gráficos simples, como função de osciloscópio. 
+Ele pode possui um sistema operacional comum, como um criado para ele, nas versões que usam RPI Pico/ Arduino, ou para Raspberry Pi Raspbian Lite, ou Arch Linux, com configurações básicas para fornecer gráficos simples, como função de osciloscópio. 
 
 **Fotos/Vídeos de Inspiração/demonstração**
 
